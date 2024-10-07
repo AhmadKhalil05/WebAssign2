@@ -1,0 +1,159 @@
+
+h1, h2, h3, h4, h5, h6, p{
+    text-align: center;
+}
+
+ p {
+    max-width: 600px; /* Adjust this value to control the width */
+    margin: 0 auto; /* Centers the text within the parent element */
+    line-height: 1.6; /* Improves readability */
+    padding: 10px; /* Adds some padding for better spacing */
+    text-align: justify; /* Optional: makes the text look more aligned */
+    text-align: center;
+}
+
+/* Center the link container */
+.link-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center if needed */
+    height: 100px;            /* You can adjust the height based on your needs */
+}
+
+/* Styling for the link */
+a {
+    display: inline-block;     /* Make the link behave like a block */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;     /* Remove underline */
+}
+
+a:hover {
+    background-color: #555;
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+/* Styling for Navigation Menu */
+nav ul {
+    background-color: #333;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Profile Picture Styling */
+#profile_pic {
+    max-width: 250px;
+    border-radius: 50%;
+    margin: 10px 0;
+    display: block; /* Ensure it behaves like a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hobbies_pic {
+    max-width: 400px;
+    border-radius: 4%;
+    margin: 10px 0;
+    display: block; /* Ensure it behaves like a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form Styling */
+/* Center the form container */
+form {
+    display: flex;
+    flex-direction: column; /* Align form elements vertically */
+    justify-content: center;
+    align-items: center; /* Horizontally center the form inputs */
+    margin-top: 10px;
+    width: 100%; /* Ensures the form takes full width */
+    max-width: 400px; /* Optional: limit the max-width of the form */
+    margin-left: auto;
+    margin-right: auto; /* Center the form horizontally on the page */
+}
+
+/* Styling for the text input */
+input[type="text"] {
+    width: 100%; /* Full width within the form */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make the button full width of the form */
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Hobbies Section as Grid */
+#hobbies ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#hobbies li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#hobbies li h3 {
+    margin: 0 0 10px;
+}
